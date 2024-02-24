@@ -1,0 +1,56 @@
+body{
+   
+    background-color:azure;
+}
+/* Container Styles */
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    color:rgb(169, 104, 104);
+
+}
+#description{
+color: red;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select, 
+textarea{
+   width:100%; 
+   padding-top:10px;
+   border:1px solid grey;
+   border-radius: 0 20 0 0px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-top:10px;
+}
+input[type="submit"]{
+    color:white;
+    padding:10px 20px;
+    background-color: blue;
+    border-radius: 8px;
+    margin:0, auto;
+}
+fieldset{
+    margin-top:10px;
+    
+}
+select{
+    width:100%;
+    padding:5px;
+    border: 1px solid grey;
+}
+textarea{
+    color:red;
+    
+}
